@@ -1,0 +1,13 @@
+{
+  "name": "media-support-chat-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/run-support-chat.ts",
+    "test": "node --experimental-strip-types src/infrai_support.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
